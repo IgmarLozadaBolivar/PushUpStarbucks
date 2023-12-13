@@ -1,4 +1,3 @@
-<img src="./assets/logo-asset.png" alt="Imagen JWT">
 <h1 align="center"><img width="30" height="30" src="./assets/img/logo.png" alt="pills"/><b>PushUp - Starbucks - Frontend</b></h1>
 <br>
 <p>Starbucks desea construir un sitio web responsivo que permita ofrecer una amplia gama de
