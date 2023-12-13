@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #ffffff 0%, #f5f5f5 100%);
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.navbar {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+
+.navbar-nav {
+    margin-bottom: 10px;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+.navbar-nav a {
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-item {
+    border-radius: 100px;
+    border-color: #fc7719;
+}
+
+.navbar-nav a {
+    border-bottom: 3px solid transparent;
+}
+
+.nav-item.active a {
+    color: #fc7719;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fc7719;
+    border-radius: 25px;
+    border-color: #fc7719;
+}
+
+.navbar-toggler {
+    border: none;
+    color: #000;
+}
+
+#imagenDerecha {
+    float: right;
+    width: 30%;
+}
+
+#imagenDerecha img {
+    padding-top: 20%;
+    margin-right: 20%;
+    width: 100%;
+    height: auto;
+}
+
+#redesSocialesDerecha ul {
+    position: absolute;
+    left: 94%;
+}
+
+#redesSocialesDerecha ul {
+    padding-top: 17%;
+    height: auto;
+    list-style: none;
+}
+
+#redesSocialesDerecha img {
+    padding-top: 10%;
+}
+
+.footer {
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img {
+    margin: 30px;
+}
+
+#contenido {
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    right: 70%;
+    color: #fc7719;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav a {
+        display: block;
+        text-align: center;
+        border-radius: 0;
+        border-bottom: none;
+    }
+
+    #contenido {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        text-align: center;
+        color: #fc7719;
+        padding: 20px;
+    }
+
+    #imagenDerecha {
+        margin-top: 20px;
+        order: 1;
+    }
+
+    #imagenDerecha img {
+        position: relative;
+        right: 130%;
+        text-align: center;
+    }
+
+    #redesSocialesDerecha {
+        margin-top: 20px;
+        order: 2;
+    }
+
+    #redesSocialesDerecha img {
+        position: relative;
+        right: 200%;
+        text-align: center;
+    }
+
+    .footer {
+        padding-top: 100px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav a {
+        display: block;
+        text-align: center;
+        border-radius: 0;
+        border-bottom: none;
+    }
+
+    #contenido {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        text-align: center;
+        color: #fc7719;
+        padding: 20px;
+    }
+
+    #imagenDerecha {
+        margin-top: 20px;
+        order: 1;
+    }
+
+    #imagenDerecha img {
+        position: relative;
+        right: 130%;
+        text-align: center;
+    }
+
+    #redesSocialesDerecha {
+        margin-top: 20px;
+        order: 2;
+    }
+
+    #redesSocialesDerecha img {
+        position: relative;
+        right: 200%;
+        text-align: center;
+    }
+
+    .footer {
+        padding-top: 100px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav a {
+        display: block;
+        text-align: center;
+        border-radius: 0;
+        border-bottom: none;
+    }
+
+    #contenido {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        text-align: center;
+        color: #fc7719;
+        padding: 20px;
+    }
+
+    #imagenDerecha {
+        margin-top: 20px;
+        order: 1;
+    }
+
+    #imagenDerecha img {
+        position: relative;
+        right: 130%;
+        text-align: center;
+    }
+
+    #redesSocialesDerecha {
+        margin-top: 20px;
+        order: 2;
+    }
+
+    #redesSocialesDerecha img {
+        position: relative;
+        right: 200%;
+        text-align: center;
+    }
+
+    .footer {
+        padding-top: 100px;
+        width: 100%;
+    }
+}
